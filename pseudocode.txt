@@ -1,0 +1,14 @@
+PROGRAM findItemInArray (FUNCTION)
+  READ searchItem (FUNCTION PARAMETERS)
+  READ sourceArray
+
+  LOOP through the sourceArray (FOR LOOP)
+    COMPARE searchItem to value at current position in sourceArray (IF-ELSE STATEMENTS)
+
+    IF searchItem equals value at current position
+      REPORT position number (CONSOLE.LOG, ALERT)
+    OTHERWISE
+      CONTINUE looping
+    END IF
+  END LOOP
+END PROGRAM
